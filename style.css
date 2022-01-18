@@ -1,0 +1,16 @@
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: grey;
+  height: 50px;
+}
+
+.header-content .logo-content {
+  background-color: red;
+}
+
+.header-content .nav-content {
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */
