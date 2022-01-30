@@ -5,6 +5,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-decoration: none;
+  font-family: Montserrat;
 }
 
 .header-content {
@@ -39,7 +40,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 24px 0 36px 0;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 16.7353px;
@@ -62,7 +62,6 @@
 }
 
 .main-content .cover-content {
-  background-color: olivedrab;
   width: 100%;
   height: 356px;
   display: -webkit-box;
@@ -75,10 +74,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 142px;
 }
 
 .main-content .cover-content .content-title {
-  background-color: burlywood;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,7 +89,6 @@
 }
 
 .main-content .cover-content .content-title h1 {
-  font-family: Montserrat;
   font-weight: 800;
   font-size: 43.8873px;
   line-height: 53px;
@@ -111,17 +109,80 @@
           flex-direction: row;
 }
 
-.main-content .cover-content .content-title .button-content button {
+.main-content .cover-content .content-title .button-content .detail-button {
+  margin-right: 11.49px;
+}
+
+.main-content .cover-content .content-title .button-content .detail-button button {
   color: white;
+  background-color: #45DF67;
   width: 229.74px;
   height: 36.37px;
-  background-color: #45DF67;
   -webkit-box-shadow: 0px 3.82892px 6.70061px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 3.82892px 6.70061px rgba(0, 0, 0, 0.25);
   border-radius: 5.74338px;
 }
 
-.main-content .cover-content .content-title .button-content button:nth-cild(2) {
-  background-color: blue;
+.main-content .cover-content .content-title .button-content .book-button button {
+  background-color: white;
+  color: black;
+  width: 168.47px;
+  height: 35.18px;
+  border: 0.925668px solid #45DF67;
+  border-radius: 5.55401px;
+}
+
+.main-content .card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-content .card-content .card-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 325px;
+  height: 179px;
+  margin-right: 15px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.main-content .card-content .card-detail:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.main-content .card-content .card-detail span {
+  color: #45DF67;
+}
+
+.main-content .card-content .card-detail h2 {
+  font-weight: normal;
+  font-size: 20.699px;
+}
+
+.main-content .card-content .card-detail p {
+  font-weight: bold;
+  font-size: 36.8178px;
 }
 /*# sourceMappingURL=style.css.map */

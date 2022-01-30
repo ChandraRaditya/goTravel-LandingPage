@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800&display=swap');
 $primaryColor: #45DF67;
+$primaryFont: Montserrat;
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: $primaryFont;
 }
 
 .header-content {
@@ -29,7 +31,6 @@ $primaryColor: #45DF67;
             flex-direction: row;
             justify-content: center;
             padding: 24px 0 36px 0;
-            font-family: Montserrat;
             font-style: normal;
             font-weight: normal;
             font-size: 16.7353px;
@@ -52,29 +53,28 @@ $primaryColor: #45DF67;
 .main-content {
     margin: 164px 190px 164px 190px;
     .cover-content{
-        background-color: olivedrab;
         // width: 1020px;
         width: 100%;
         height: 356px;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        margin-bottom: 142px;
+        // background-color: darkcyan;
 
         .content-title {
-            background-color: burlywood;
             display: flex;
             flex-direction: column;
             margin: 8% 8% 8% 0;
 
             h1 {
-                span {
-                    color: $primaryColor;
-                }
-
-                font-family: Montserrat;
                 font-weight: 800;
                 font-size: 43.8873px;
                 line-height: 53px;
+
+                span {
+                    color: $primaryColor;
+                }
             }
 
             .button-content {
@@ -82,18 +82,69 @@ $primaryColor: #45DF67;
                 display: flex;
                 flex-direction: row;
 
-                button {
-                    color: white;
-                    width: 229.74px;
-                    height: 36.37px;
-                    background-color: $primaryColor;
-                    box-shadow: 0px 3.82892px 6.70061px rgba(0, 0, 0, 0.25);
-                    border-radius: 5.74338px;
+                .detail-button {
+                    margin-right: 11.49px;
+                    
+                    button {
+                        color: white;
+                        background-color: $primaryColor;
+                        width: 229.74px;
+                        height: 36.37px;
+                        box-shadow: 0px 3.82892px 6.70061px rgba(0, 0, 0, 0.25);
+                        border-radius: 5.74338px;
+                    }
                 }
 
-                button:nth-cild(2) {
-                    background-color: blue ;
+                
+                .book-button {
+                  
+                    button {
+                        background-color: white ;
+                        color: black;
+                        width: 168.47px;
+                        height: 35.18px;
+                        border: 0.925668px solid #45DF67;
+                        border-radius: 5.55401px;
+                    }
                 }
+            }
+        }
+    }
+
+    .card-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // background-color: coral;
+
+        .card-detail {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 325px;
+            height: 179px;
+            margin-right: 15px;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+
+            &:nth-last-child(1) {
+                margin-right: 0;
+            }
+
+            span {
+                color: $primaryColor;
+            }
+
+            h2 {
+                font-weight: normal;
+                font-size: 20.699px;
+            }
+
+            p {
+                font-weight: bold;
+                font-size: 36.8178px;
             }
         }
     }
