@@ -10,105 +10,115 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-content">
-            <div class="logo-content">
-                <img src="images/Gotravel logo.svg" alt="goTravel-Logo">
-            </div>
-            <nav class="nav-content">
-                <ul>
-                    <li>beranda</li>
-                    <li>liburan!</li>
-                    <li>tentang kami</li>
-                    <li>kontak</li>
+    <header class="page-head">
+        <div class="wrapper">
+            <img class="page-head__image" src="images/Gotravel logo.svg" alt="goTravel-Logo">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__li">beranda</li>
+                    <li class="navigation__li">liburan!</li>
+                    <li class="navigation__li">tentang kami</li>
+                    <li class="navigation__li">kontak</li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
-        <div class="main-content">
-            <section class="cover-content">
-                <div class="content-title">
-                    <h1><span>Traveling</span> Jadi Asik</h1>
-                    <p>Wujudkan impianmu berlibur ke tempat impian dengan
+    <main class="main-content">
+        <section class="cover">
+            <div class="wrapper">
+                <div class="content">
+                    <h1 class="content__h1"><span class="content__span">Traveling</span> Jadi Asik</h1>
+                    <p class=" content__p">Wujudkan impianmu berlibur ke tempat impian dengan
                         harga terjangkau bersama keluarga den teman-teman!</p>
-                    <div class="button-content">
-                        <div class="detail-button">
-                            <button>pelajari lebih lanjut</button>
-                        </div>
-                        <div class="book-button">
-                            <button>pesan sekarang</button>
-                        </div>
+                    <div class=" button-container content__button-container">
+                        <button class="content__detail">pelajari lebih lanjut</button>
+                        <button class="content__book">pesan sekarang</button>
                     </div>
                 </div>
-                <div class="cover-image">
+                <div class="cover__image">
                     <img src="images/Rectangle 29.jpg" alt="">
                 </div>
-            </section>
-            <section class="card-content">
-                <div class="card-detail">
-                    <h2>Client Kami</h2>
-                    <p><span>1</span> jt <span>560</span>rb</p>
-                </div>
-                <div class="card-detail">
-                    <h2>WISATA</h2>
-                    <p><span>600</span> Lokas</p>
-                </div>
-                <div class="card-detail">
-                    <h2>Kota</h2>
-                    <p><span>250</span> Kota</p>
-                </div>
-            </section>
-            <section class="lower-detail-content">
-                <img src="images/Rectangle 37.jpg" alt="">
-                <div class="destination-content">
-                    <h2><span>Kami</span> Menawarkan Pilihan terbaik untuk <span>Client Kami</span>.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra posuere blandit ut nisl
-                        blandit lorem massa. In aliquam adipiscing nisl sit ut dictum commodo.</p>
-                    <button>Pilih destinasi Liburan kamu!</button>
-                </div>
-            </section>
-            <section class="testimoni-content">
-                <h2>kata mereka</h2>
-                <div class="testimoni-card-container">
-                    <div class="testimoni-card">
-                        <img src="images/Ellipse 4.jpg" alt="">
-                        <h3>hendri irawan</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            </div>
+        </section>
+        <section class="card">
+            <div class="wrapper">
+                <div class="layout">
+                    <div class="layout__detail">
+                        <h2 class="layout__h2">Client Kami</h2>
+                        <p class="layout__p"><span class="layout__span">1</span class="layout__span"> jt <span
+                                class="layout__span">560</span>rb</p>
                     </div>
-                    <div class="testimoni-card">
-                        <img src="images/Ellipse 4.jpg" alt="">
-                        <h3>hendri irawan</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <div class="layout__detail">
+                        <h2 class="layout__h2">WISATA</h2>
+                        <p class="layout__p"><span class="layout__span">600</span class="layout__span"> Lokasi</p>
                     </div>
-                    <div class="testimoni-card">
-                        <img src="images/Ellipse 4.jpg" alt="">
-                        <h3>hendri irawan</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <div class="layout__detail">
+                        <h2 class="layout__h2">Kota</h2>
+                        <p class="layout__p"><span class="layout__span">250</span class="layout__span"> Kota</p>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="wrapper">
+                <div class="content">
+                    <img class="content__image" src="images/Rectangle 37.jpg" alt="">
+                    <div class="text content__text">
+                        <h2 class="content__h2"><span class="content__span">Kami</span class="content__span"> Menawarkan
+                            Pilihan terbaik untuk <span class="content__span">Client Kami</span>.</h2>
+                        <p class="content__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra
+                            posuere blandit ut
+                            nisl
+                            blandit lorem massa. In aliquam adipiscing nisl sit ut dictum commodo.</p>
+                        <button class="content__button">Pilih destinasi Liburan kamu!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimoni">
+            <div class="wrapper">
+                <h2 class="testimoni__h2">kata mereka</h2>
+                <div class="container">
+                    <div class="review-card container_review-card">
+                        <img class="review-card__image" src="images/Ellipse 4.jpg" alt="">
+                        <h3 class="review-card__h3">hendri irawan</h3>
+                        <p class="review-card__p">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    </div>
+                    <div class="review-card container_review-card">
+                        <img class="review-card__image" src="images/Ellipse 4.jpg" alt="">
+                        <h3 class="review-card__h3">hendri irawan</h3>
+                        <p class="review-card__p">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    </div>
+                    <div class="review-card container_review-card">
+                        <img class="review-card__image" src="images/Ellipse 4.jpg" alt="">
+                        <h3 class="review-card__h3">hendri irawan</h3>
+                        <p class="review-card__p">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-        <img src="images/Gotravel logo.svg" alt="goTravel-Logo">
-        <div class="footer-information">
-            <h2>Layanan Kami:</h2>
-            <p>pesan travel</p>
-            <p>pesan tiket liburan</p>
-            <p>pesan hotel</p>
-        </div>
-        <div class="footer-information">
-            <h2>Social Media:</h2>
-            <p>facebook</p>
-            <p>twitter</p>
-            <p>instagram</p>
-        </div>
-        <div class="footer-information">
-            <h2>Tentang Kami:</h2>
-            <p>about</p>
-            <p>careers</p>
-            <p>our partner</p>
+    <footer class="page-footer">
+        <div class="wrapper">
+            <img class="page-footer__image" src="images/Gotravel logo.svg" alt="goTravel-Logo">
+            <div class="layout">
+                <h2 class="page-footer__h2">Layanan Kami:</h2>
+                <p class="page-footer__p">pesan travel</p>
+                <p class="page-footer__p">pesan tiket liburan</p>
+                <p class="page-footer__p">pesan hotel</p>
+            </div>
+            <div class="layout">
+                <h2 class="page-footer__h2">Social Media:</h2>
+                <p class="page-footer__p">facebook</p>
+                <p class="page-footer__p">twitter</p>
+                <p class="page-footer__p">instagram</p>
+            </div>
+            <div class="layout">
+                <h2 class="page-footer__h2">Tentang Kami:</h2>
+                <p class="page-footer__p">about</p>
+                <p class="page-footer__p">careers</p>
+                <p class="page-footer__p">our partner</p>
+            </div>
         </div>
     </footer>
 </body>
